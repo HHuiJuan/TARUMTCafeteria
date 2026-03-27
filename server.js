@@ -5,7 +5,7 @@ app.use(express.json());
 
 // Connect to your RDS database
 const db = mysql.createPool({
-  host: 'your-rds-endpoint',   // e.g. cafeteria.xxxxx.rds.amazonaws.com
+  host: 'cafe-db.chhcwyw7nw2u.us-east-1.rds.amazonaws.com',   // e.g. cafeteria.xxxxx.rds.amazonaws.com
   user: 'cafeadmin',
   password: 'Cafe-pass1234',
   database: 'cafeteria'
