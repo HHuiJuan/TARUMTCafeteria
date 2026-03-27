@@ -173,4 +173,8 @@ if (isset($_GET['api'])) {
     loadMenuData();
 </script>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 580c304ca01eedd83a637403e19f502e14573cc2
